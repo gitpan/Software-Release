@@ -1,6 +1,6 @@
 package Software::Release;
 {
-  $Software::Release::VERSION = '0.02';
+  $Software::Release::VERSION = '0.03';
 }
 use Moose;
 
@@ -39,6 +39,7 @@ has version => (
 __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
+
 __END__
 =pod
 
@@ -48,7 +49,7 @@ Software::Release - Object representing a release of software.
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -74,10 +75,10 @@ version 0.02
 =head1 DESCRIPTION
 
 Software::Release is a purely informational collection of objects that you
-can use to represent a release of software.  It's original use-case was to
-provide a contract between a git log parser and a formatter class that output
-a changelog, but it may be useful to others create bug trackers, dashboards
-or whathaveyour.
+can use to represent a release of software.  Its original use-case was to
+provide a contract between a git log parser and a formatter class that outputs
+a changelog, but it may be useful to others to create bug trackers, dashboards
+or whathaveyou.
 
 =head1 ATTRIBUTES
 

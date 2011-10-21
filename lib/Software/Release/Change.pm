@@ -1,6 +1,6 @@
 package Software::Release::Change;
 {
-  $Software::Release::Change::VERSION = '0.02';
+  $Software::Release::Change::VERSION = '0.03';
 }
 use Moose;
 
@@ -60,7 +60,7 @@ Software::Release::Change - A change made in a software release.
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
